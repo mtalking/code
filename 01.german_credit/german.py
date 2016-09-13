@@ -53,7 +53,7 @@ clf.fit(train_x,train_y)
 
 #使用训练的模型预测test_x
 proba = clf.predict_proba(test_x)
-print "测试集样本预测违约概率预测（每行代表一个样本，第一列为坏客户的概率，第二列为好客户的概率）："
+print "预测测试集样本违约概率（每行代表一个样本，第一列为该样本是坏客户的概率，第二列为该样本是好客户的概率）："
 print proba
 print 
 
