@@ -16,9 +16,10 @@ data_unbalanced = pd.read_csv('exam_unbalanced.csv')
 fig = plt.figure('balanced vs unbalanced')
 ax1 = fig.add_subplot(1,2,1)
 ax2 = fig.add_subplot(1,2,2)
-#设置子图1的横坐标
+
+#子图1命名为"balanced samples"
 ax1.set_xlabel(' balanced sample ')
-#设置子图2的横坐标
+#子图2命名为"unbalanced samples"
 ax2.set_xlabel(' unbalanced sample ')
 
 #在子图1上绘制平衡数据集
