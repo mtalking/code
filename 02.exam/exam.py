@@ -18,7 +18,7 @@ ax1 = fig.add_subplot(1,2,1)
 ax2 = fig.add_subplot(1,2,2)
 #设置子图1的横坐标
 ax1.set_xlabel(' balanced sample ')
-#设置子图1的横坐标
+#设置子图2的横坐标
 ax2.set_xlabel(' unbalanced sample ')
 
 #在子图1上绘制平衡数据集
